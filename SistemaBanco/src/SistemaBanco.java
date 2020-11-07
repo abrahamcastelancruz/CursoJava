@@ -14,8 +14,6 @@ public class SistemaBanco {
 		System.out.println("Bienvenido Ingresa tu NIP");
 		int nip = entrada.nextInt();
 		int cuenta = 0;
-		int conf;
-		int aux;
 		int op;
 		int res;
 		String operaciónExitosa = "La Operación Se Realizo Con Éxito!!";
@@ -84,9 +82,10 @@ public class SistemaBanco {
 				}else {
 					System.out.println("Ingresa una opción válida");
 				}
+			}else if(op == 3) {
+				System.out.println("$"+cuenta);
 			}
 		}while(op != 0);
-		System.out.println(cuenta);
 	}
 	
 	public static int Depositar(int opcion) {
@@ -125,7 +124,6 @@ public class SistemaBanco {
 				
 		}
 		return dinero;
-		
 	}
 
 }
