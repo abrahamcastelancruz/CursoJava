@@ -20,13 +20,14 @@ public class Arreglos {
 		
 		// Ejemplo de como recorrer un arreglo
 		
-		//  0    1   2  3    4   5
+				//  0    1   2  3    4   5
 		int n2[] = {10, 20, 30, 50, 60, 70};
 		
 		for (int i = 0; i < n2.length; i++) {
 			System.out.println(n2[i]);
 		}
-		*/
+		
+		
 		
 		Scanner entrada = new Scanner(System.in);
 		System.out.println("Ingresa la cantidad de Materias");
@@ -41,6 +42,33 @@ public class Arreglos {
 		
 		System.out.println(Arrays.toString(materias));
 		
+		String cadena = "Hola desde Mexico mi nombre es Abraham";
+		//System.out.println(cadena.length());
+		for (int i = 0; i < cadena.length();i++) {
+			System.out.println(cadena.charAt(i));
+		}*/
+		
+		Scanner entrada = new Scanner(System.in); 		// Declarando nuestro objeto para entradas
+		System.out.println("Ingresa una frase");  		// Solicitar a el usuario una frase
+		String cadena = entrada.nextLine();  			// Declarando un String y le estamos asignando el valor de entrada
+		
+		char caracteres[];								// Declaramos un arreglo de caracteres
+		int longitud = cadena.length();					// Declaro una variable int y le asigno el valor de la longitud del String
+		caracteres = new char[longitud];				// Creamos el arreglo caracteres
+		
+		for (int i = 0; i < cadena.length(); i++) {
+			caracteres[i] = cadena.charAt(i);
+			// asigno un elemento en la posición 'i' que sera el caraceter de el String en la posición 'i';
+		}
+		
+		// caracteres [ 0 ] = H
+		// caracteres [ 1 ] = o
+		// caracteres [ 2 ] = l
+		// caracteres [ 3 ] = a
+		//.....
+		// caracteres [ 37 ] = m
+		
+		System.out.println(Arrays.toString(caracteres));
 	}
 
 }
