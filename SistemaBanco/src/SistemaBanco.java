@@ -19,7 +19,19 @@ public class SistemaBanco {
 		int res;
 		String operaciónExitosa = "La Operación Se Realizo Con Éxito!!";
 		
+		
 		for (int i = 0; i < nipsBD.length; i++) {
+			
+			if(nip == nipsBD[i]) {
+				System.out.println("Existe");
+				break;
+			}else {
+				System.out.println("No existe");
+				break;
+			}
+		}
+		
+		/*for (int i = 0; i < nipsBD.length; i++) {
 			if(nip == nipsBD[i]) {
 				System.out.println("Bienvenido a el Banco!!");
 				do {
@@ -95,7 +107,7 @@ public class SistemaBanco {
 				System.out.println("El NIP ingresado no Existe!!!");
 				break;
 			}
-		}
+		}*/
 	}
 	
 	public static int Depositar(int opcion) {

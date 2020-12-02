@@ -1,10 +1,9 @@
 
-public class OperadoresAritméticos {
+public class OperadoresAritm�ticos {
 
 	public static void main(String[] args) {
 		int n1 = 33;
 		int n2 = 35;
-		
 		// Operadores aritméticos
 		
 			// Suma 

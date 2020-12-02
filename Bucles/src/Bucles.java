@@ -1,3 +1,4 @@
+import java.util.Random;
 import java.util.Scanner;
 
 public class Bucles {
@@ -66,42 +67,15 @@ public class Bucles {
 		 * 
 		 */
 		
-		Scanner entrada =  new Scanner(System.in);
+	/*	Scanner entrada =  new Scanner(System.in);
 		int n;
 		
 		do {			
 			System.out.println("Ingresa un número mayor que 0");
 			n = entrada.nextInt();
-		}while(n <= 0);
+		}while(n <= 0);*/
 		
-		
-		/* Reto 1 Serie de Fibonacci
-		 * 
-		 * -> Solicitar un número por consola 
-		 * -> El número va a indicar el límite de la serie.
-		 * 
-		 */
-		
-		/* 	Reto 2 Juego de adivinar el número
-		 * 
-		 * -> Solicitar un número por consola
-		 * -> definir un número entre 0 y 100 
-		 * -> Juego de Adivinar un número
-		 */
-		
-		/* Reto 3 Convertidor de C° a F°
-		 * 
-		 * -> Solicitar un número por consola
-		 * -> Convertir de C° a F°
-		 * 
-		 */
-		
-		/*	Reto 4 Convertir de Km/h a m/s
-		 * 
-		 * -> Solicitar un número por consola
-		 * -> Imprimir la conversión de Km/h a m/s
-		 * 
-		 */
+	
 		
 	}
 
